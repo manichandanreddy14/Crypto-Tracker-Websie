@@ -1,0 +1,70 @@
+.list-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    text-align: left;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
+.list-row:hover{
+background-color: var(--darkgrey);
+transition: 1s;
+}
+.modile-market{
+    display: none;
+}
+.list-row td{
+    text-align: left;
+  
+}
+.price-chip1{
+    
+border-radius: 1rem;
+padding-inline: 10px;
+text-align: center;
+font-weight: 600;
+font-size: 1.2rem;
+
+font-size: 1rem;
+}
+.info-flex{
+    width: 3rem !important;
+    margin-right: 1.5rem;
+}
+.td-rigth-align{
+text-align: right;
+}
+.td-rigth-align{
+    text-align: center;
+}
+@media only screen and (max-width: 1100px) {
+    .td-icon{
+        display: none;
+    }
+    .TrendingUpIcon{
+        display: none;
+    }
+   
+    .total-value{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1000px) {
+
+ .td-font{
+        font-size: 80%;
+    }
+}
+@media only screen and (max-width: 800px) {
+.disktop-market{
+display: none;
+}
+.modile-market{
+display: block;
+}
+.td-font{
+    font-size: 70%;
+}
+}

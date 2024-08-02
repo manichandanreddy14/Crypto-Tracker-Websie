@@ -1,0 +1,12 @@
+.Toggle-button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-block: 5px;
+}
+@media only screen and (max-width:800px) {
+ .toggle-btn{
+font-size: 0.7rem !important;
+padding: 0.5rem !important;
+}   
+}
